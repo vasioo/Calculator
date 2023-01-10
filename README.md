@@ -9,4 +9,4 @@ It can:
  - Make the input empty
  - Use decimals
 
-![image](https://user-images.githubusercontent.com/78680789/211633132-0d794292-35bf-4771-8ded-79cf2a77b873.png)
+![image](https://user-images.githubusercontent.com/78680789/211637224-8760d336-5f82-4170-b306-d10d4734e8ca.png)
