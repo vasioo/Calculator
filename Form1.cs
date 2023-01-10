@@ -16,6 +16,7 @@ namespace Calculator
         public static decimal secondValue = 0;
         public static decimal currentElement = 0;
         public static char symbol = ' ';
+        public static bool used = false;
 
         public Form1()
         {
@@ -116,9 +117,7 @@ namespace Calculator
                 default:
                     break;
             }
-
         }
-        
         //The number 1
         private void button1_Click(object sender, EventArgs e)
         {
@@ -239,7 +238,11 @@ namespace Calculator
         //The separator
         private void button11_Click(object sender, EventArgs e)
         {
-            label1.Text = label1.Text + ".";
+            if (!used)
+            {
+                label1.Text = label1.Text + ".";
+                used = true;
+            }
         }
 
         private void nightMode_Click(object sender, EventArgs e)
